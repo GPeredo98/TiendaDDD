@@ -1,0 +1,317 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\HP\\Documents\\ASP.NET Projects\\PrimerParcial\\PrimerParcial.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Dominio\\Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Dominio\\Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\HP\\Documents\\ASP.NET Projects\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\SharedKernel\\SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Infraestructura\\Infraestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Infraestructura\\Infraestructura.csproj",
+        "projectName": "Infraestructura",
+        "projectPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Infraestructura\\Infraestructura.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Infraestructura\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Dominio\\Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Documents\\ASP.NET Projects\\PrimerParcial\\PrimerParcial.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\PrimerParcial\\PrimerParcial.csproj",
+        "projectName": "PrimerParcial",
+        "projectPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\PrimerParcial\\PrimerParcial.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\PrimerParcial\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Infraestructura\\Infraestructura.csproj": {
+                "projectPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\Infraestructura\\Infraestructura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Documents\\ASP.NET Projects\\SharedKernel\\SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\SharedKernel\\SharedKernel.csproj",
+        "projectName": "SharedKernel",
+        "projectPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\SharedKernel\\SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\ASP.NET Projects\\SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
